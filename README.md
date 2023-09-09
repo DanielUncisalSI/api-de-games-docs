@@ -7,11 +7,10 @@ Esse endpoint é responsável por retornar a listagem de todos os games cadstrad
 Nenhum
 #### Respostas
 ##### OK 200C
-Caso essa resposta aconteça você vai receber a listagem de todos os games
+Caso essa resposta aconteça você vai receber a listagem de todos os games.
+
 Exemplo de resposta:
 
-#### Falha na autenticação! 404
-Caso essa resposta aconteça. isso significa que aconteceu alguma falha durante o processo de autenticação da requisição: Motivos: Token inválido, Token expirado.
 ```
 [
     {
@@ -35,3 +34,7 @@ Caso essa resposta aconteça. isso significa que aconteceu alguma falha durante 
 ]
 
 ```
+
+#### Falha na autenticação! 404
+Caso essa resposta aconteça. isso significa que aconteceu alguma falha durante o processo de autenticação da requisição: Motivos: Token inválido, Token expirado.
+
