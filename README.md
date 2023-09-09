@@ -38,3 +38,9 @@ Exemplo de resposta:
 #### Falha na autenticação! 404
 Caso essa resposta aconteça. isso significa que aconteceu alguma falha durante o processo de autenticação da requisição: Motivos: Token inválido, Token expirado.
 
+Exemplo de resposta:
+```
+{
+    "err": "Token inválido"
+}
+```
